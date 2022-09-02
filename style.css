@@ -15,8 +15,13 @@
 }
 .button-one, .button-two{
     background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    border:2px solid #F9FAF8;
 }
-.sign-up-box {
+.sign-up-container {
     background-color: #3882F6;
 }
 .info-header {
@@ -34,7 +39,15 @@
     color: #1F2937;
 }
 
-/*flex*/
+.sign-up-box {
+    color:#E5E7EB
+}
+.action-header {
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+/*flex and alignment and padding*/
 
 body{
     display: flex;
@@ -48,3 +61,22 @@ body{
     padding: 32px;
 }
 
+.sign-up-box {
+    padding: 48px 96px;
+}
+
+.sign-up-container {
+    display: flex;
+    padding: 32px;
+    justify-content: space-around;
+}
+button {
+    padding: 8px 24px;
+}
+.quote-box {
+    display:flex;
+    flex-direction: column;
+    padding: 64 px;
+    justify-content: center;
+    align-items: center;
+}
