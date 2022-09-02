@@ -53,6 +53,9 @@
 .quoted {
     font-weight: bolder;
 }
+li {
+    list-style: none;
+}
 
 /*flex and alignment and padding*/
 
@@ -60,18 +63,15 @@ body{
     display: flex;
     flex-direction: column;
 }
-
 .footer {
     display: flex;
     justify-content: center;
     align-content: center;
     padding: 32px;
 }
-
 .sign-up-box {
     padding:96px 256px;
 }
-
 .sign-up-container {
     display: flex;
     padding: 32px;
@@ -108,4 +108,29 @@ button {
 }
 .box {
     padding: 64px;
+}
+.content-box {
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+.links {
+    display: flex;
+    gap: 32px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.main-body {
+    display: flex;
+    padding: 96px 256px;
+    gap: 32px;
+}
+.image {
+    padding: 64px 128px;
+    background-color: gray;
 }
