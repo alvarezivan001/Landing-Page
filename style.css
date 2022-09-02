@@ -34,3 +34,16 @@
     color: #1F2937;
 }
 
+/*flex*/
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 32px;
+}
